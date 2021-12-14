@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp1"
+        >
+        <item android:id="@+id/item0"
+            android:icon="@drawable/ic_baseline_join_us"
+            android:title="Join Us"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp2">
+        <item android:id="@+id/item1"
+            android:icon="@drawable/ic_baseline_policy"
+            android:title="Privacy Policy"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp3">
+        <item android:id="@+id/item2"
+            android:icon="@drawable/ic_baseline_notes"
+            android:title="Terms and Conditions"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp4">
+        <item android:id="@+id/item3"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About Us"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp5">
+        <item android:id="@+id/item4"
+            android:icon="@drawable/ic_baseline_email_24"
+            android:title="Contact Us"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp6">
+        <item android:id="@+id/item5"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            android:title="Rate Us"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp7">
+        <item android:id="@+id/item6"
+            android:icon="@drawable/ic_baseline_share"
+            android:title="Share App"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp8">
+        <item android:id="@+id/item7"
+            android:icon="@drawable/ic_baseline_login"
+            android:title="Log Out"/>
+    </group>
+
+</menu>
